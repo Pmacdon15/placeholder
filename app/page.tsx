@@ -31,14 +31,14 @@ export default function Home() {
         Coming Soon
       </h1>
       <p className="text-xl text-gray-600 text-center max-w-2xl">
-        We're working hard to bring you something amazing. Stay tuned!
+        We&apos;re working hard to bring you something amazing. Stay tuned!
       </p>
       <div className="mt-8">
         <div className="h-2 w-48 bg-gray-200 rounded-full overflow-hidden">
-          <div 
+            <div 
             className="h-full bg-blue-500 rounded-full transition-all duration-200"
             style={{ width: `${progress}%` }}
-          ></div>
+            ></div>
         </div>
       </div>
     </div>
